@@ -18,12 +18,28 @@ const families = [
   { name: "Fougère", desc: "Lavendel, mossa, kumarin — den klassiska herrdoft-strukturen." },
   { name: "Chypre", desc: "Bergamott möter mossa och läder — torrt och sofistikerat." },
 ];
+
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Parfymguiden",
+  url: "https://parfymguiden.se",
+  logo: "https://parfymguiden.se/favicon.svg",
+  email: "hej@parfymguiden.se",
+  description: "Oberoende doftjournalistik: parfymrecensioner, doftguider och en referens över dofttyper.",
+  foundingDate: "2021",
+  founder: [
+    { "@type": "Person", name: "Elin Wallenberg" },
+    { "@type": "Person", name: "Noa Fredriksson" },
+  ],
+};
 ---
 
 <BaseLayout
   title="Parfymguiden"
   description="Oberoende parfymrecensioner, doftguider och en karta över dofttyper. Vi köper varje flaska själva och testar den i två veckor innan vi skriver ett ord."
 >
+  <script type="application/ld+json" set:html={JSON.stringify(organizationJsonLd)} />
   <section class="hero wrap">
     <div>
       <p class="eyebrow">Oberoende doftjournalistik sedan 2021</p>

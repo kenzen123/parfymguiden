@@ -49,6 +49,37 @@ Var försiktig med ljusa eller ömtåliga material — alkoholen i de flesta par
 
 ## Sammanfattning
 
+<figure>
+<svg viewBox="0 0 640 336" role="img" aria-labelledby="effekt-titel" xmlns="http://www.w3.org/2000/svg">
+<title id="effekt-titel">Relativ effekt av de sex knepen på hållbarhet: fuktig hud och oparfymerad baskräm gav störst förbättring, pulspunkter måttlig, parfym i håret marginell, gnugga handlederna och sprayavstånd ingen mätbar effekt.</title>
+<text x="0" y="16" font-family="var(--font-body)" font-size="14" fill="var(--ink)">1. Fuktig hud innan applicering</text>
+<text x="640" y="16" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--accent-ink)">Stor förbättring</text>
+<rect x="0" y="24" width="640" height="12" rx="6" fill="var(--meter-track)"></rect>
+<rect x="0" y="24" width="589" height="12" rx="6" fill="var(--accent)"></rect>
+<text x="0" y="68" font-family="var(--font-body)" font-size="14" fill="var(--ink)">2. Oparfymerad baskräm</text>
+<text x="640" y="68" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--accent-ink)">Stor förbättring</text>
+<rect x="0" y="76" width="640" height="12" rx="6" fill="var(--meter-track)"></rect>
+<rect x="0" y="76" width="544" height="12" rx="6" fill="var(--accent)"></rect>
+<text x="0" y="120" font-family="var(--font-body)" font-size="14" fill="var(--ink)">3. Pulspunkter</text>
+<text x="640" y="120" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--accent-ink)">Måttlig förbättring</text>
+<rect x="0" y="128" width="640" height="12" rx="6" fill="var(--meter-track)"></rect>
+<rect x="0" y="128" width="352" height="12" rx="6" fill="var(--accent)"></rect>
+<text x="0" y="172" font-family="var(--font-body)" font-size="14" fill="var(--ink)">4. Gnugga handlederna</text>
+<text x="640" y="172" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--ink-faint)">Ingen effekt</text>
+<rect x="0" y="180" width="640" height="12" rx="6" fill="var(--meter-track)"></rect>
+<rect x="0" y="180" width="51" height="12" rx="6" fill="var(--ink-faint)"></rect>
+<text x="0" y="224" font-family="var(--font-body)" font-size="14" fill="var(--ink)">5. Sprayavstånd 15–20 cm</text>
+<text x="640" y="224" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--ink-faint)">Ingen effekt</text>
+<rect x="0" y="232" width="640" height="12" rx="6" fill="var(--meter-track)"></rect>
+<rect x="0" y="232" width="51" height="12" rx="6" fill="var(--ink-faint)"></rect>
+<text x="0" y="276" font-family="var(--font-body)" font-size="14" fill="var(--ink)">6. Parfym i håret</text>
+<text x="640" y="276" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--accent-ink)">Marginell effekt</text>
+<rect x="0" y="284" width="640" height="12" rx="6" fill="var(--meter-track)"></rect>
+<rect x="0" y="284" width="179" height="12" rx="6" fill="var(--accent)" opacity="0.55"></rect>
+</svg>
+<figcaption>Relativ effekt av vart och ett av de sex testade knepen, baserat på vårt sexveckorstest med 14 läsare.</figcaption>
+</figure>
+
 | Knep | Effekt på hållbarhet |
 |---|---|
 | Fuktig hud innan applicering | Stor, konsekvent förbättring |

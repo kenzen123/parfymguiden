@@ -51,6 +51,21 @@ Notera att detta är stilmässigt liknande par, inte "kloner" — ingen av desig
 
 ## Vad vi faktiskt hittade
 
+<figure>
+<svg viewBox="0 0 640 130" role="img" aria-labelledby="resultat-titel" xmlns="http://www.w3.org/2000/svg">
+<title id="resultat-titel">Resultat av blindtestet: i 4 av 10 par kunde testarna höra vilken doft som var nisch. I 8 av 10 par vann designerdoften på pris per bärning.</title>
+<text x="0" y="16" font-family="var(--font-body)" font-size="14" fill="var(--ink)">Kunde höra skillnad blint på doften</text>
+<text x="640" y="16" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--accent-ink)">4 / 10 par</text>
+<rect x="0" y="26" width="640" height="12" rx="6" fill="var(--meter-track)"></rect>
+<rect x="0" y="26" width="256" height="12" rx="6" fill="var(--accent)"></rect>
+<text x="0" y="86" font-family="var(--font-body)" font-size="14" fill="var(--ink)">Designer billigare per bärning</text>
+<text x="640" y="86" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--accent-ink)">8 / 10 par</text>
+<rect x="0" y="96" width="640" height="12" rx="6" fill="var(--meter-track)"></rect>
+<rect x="0" y="96" width="512" height="12" rx="6" fill="var(--accent-2)"></rect>
+</svg>
+<figcaption>Resultat från vårt blindtest av tio nisch/designer-par, fem testare per par.</figcaption>
+</figure>
+
 **Råvarukvaliteten var jämnare än väntat.** I sex av tio par kunde testarna inte konsekvent avgöra vilken doft som var "nisch" enbart baserat på hur den luktade. Skillnaden låg oftare i komposition och koncentration än i uppenbar råvarukostnad.
 
 **Nischdofterna tog oftare risker.** Det här var den tydligaste skillnaden — inte i ren kvalitet utan i vågade beslut. Ovanliga notkombinationer, mindre kommersiella profiler och en vilja att vara mindre "alla-gillar-det" var betydligt vanligare bland nischalternativen. I paret Santal 33 mot Bleu de Chanel beskrev flera testare nischdoften som "mer intressant" men designerdoften som "mer njutbar att bära hela dagen" — två olika sorters kvalitet.

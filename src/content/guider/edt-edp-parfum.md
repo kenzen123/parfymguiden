@@ -21,6 +21,33 @@ Alla beteckningar syftar på hur stor andel parfymolja (den koncentrerade blandn
 | Eau de Parfum (EDP) | 15–20 % | 5–8 timmar |
 | Parfum / Extrait | 20–30 % | 8+ timmar |
 
+<figure>
+<svg viewBox="0 0 640 280" role="img" aria-labelledby="skala-titel" xmlns="http://www.w3.org/2000/svg">
+<title id="skala-titel">Var de fem koncentrationsnivåerna ligger på en skala 0–32 procent parfymolja: Eau Fraîche 1–3%, Eau de Cologne 2–5%, Eau de Toilette 5–15%, Eau de Parfum 15–20%, Parfum/Extrait 20–30%.</title>
+<text x="0" y="16" font-family="var(--font-body)" font-size="14" fill="var(--ink)">Eau Fraîche</text>
+<text x="640" y="16" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--accent-ink)">1–3 %</text>
+<rect x="0" y="24" width="640" height="14" rx="7" fill="var(--meter-track)"></rect>
+<rect x="20" y="24" width="40" height="14" rx="7" fill="var(--accent)" opacity="0.55"></rect>
+<text x="0" y="74" font-family="var(--font-body)" font-size="14" fill="var(--ink)">Eau de Cologne (EDC)</text>
+<text x="640" y="74" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--accent-ink)">2–5 %</text>
+<rect x="0" y="82" width="640" height="14" rx="7" fill="var(--meter-track)"></rect>
+<rect x="40" y="82" width="60" height="14" rx="7" fill="var(--accent)" opacity="0.65"></rect>
+<text x="0" y="132" font-family="var(--font-body)" font-size="14" fill="var(--ink)">Eau de Toilette (EDT)</text>
+<text x="640" y="132" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--accent-ink)">5–15 %</text>
+<rect x="0" y="140" width="640" height="14" rx="7" fill="var(--meter-track)"></rect>
+<rect x="100" y="140" width="200" height="14" rx="7" fill="var(--accent)" opacity="0.78"></rect>
+<text x="0" y="190" font-family="var(--font-body)" font-size="14" fill="var(--ink)">Eau de Parfum (EDP)</text>
+<text x="640" y="190" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--accent-ink)">15–20 %</text>
+<rect x="0" y="198" width="640" height="14" rx="7" fill="var(--meter-track)"></rect>
+<rect x="300" y="198" width="100" height="14" rx="7" fill="var(--accent)" opacity="0.9"></rect>
+<text x="0" y="248" font-family="var(--font-body)" font-size="14" fill="var(--ink)">Parfum / Extrait</text>
+<text x="640" y="248" text-anchor="end" font-family="var(--font-mono)" font-size="13" fill="var(--accent-ink)">20–30 %</text>
+<rect x="0" y="256" width="640" height="14" rx="7" fill="var(--meter-track)"></rect>
+<rect x="400" y="256" width="200" height="14" rx="7" fill="var(--accent)"></rect>
+</svg>
+<figcaption>Varje tiers ungefärliga läge på skalan 0–32 % parfymolja. Mörkare fyllning = högre koncentration.</figcaption>
+</figure>
+
 Anledningen till att det inte finns en exakt gräns är att branschens organ, <a href="https://ifrafragrance.org" target="_blank" rel="noopener noreferrer">IFRA (International Fragrance Association)</a>, reglerar vilka doftämnen som får användas och i vilka mängder av säkerhetsskäl — inte hur mycket parfymolja en flaska märkt "EDT" måste innehålla. Beteckningarna är alltså branschpraxis, inte lag, vilket är precis varför två hus procenttal kan skilja sig åt trots samma etikett.
 
 Högre halt betyder mer doftämne per sprej, vilket i sin tur *brukar* ge längre hållbarhet och starkare spridning (sillage). Men "brukar" är nyckelordet — koncentration är bara halva historien, och det är här de flesta guider slutar för tidigt.

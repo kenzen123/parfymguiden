@@ -13,6 +13,7 @@ sillage: 8
 verdict: "Söt utan att bli kväljande, och den där metalliska glansen i toppen är svår att sluta känna efter."
 publishDate: 2026-08-28
 description: "Vi testade Baccarat Rouge 540 i två veckor. Så presterar Kurkdjians mest kopierade doft i vardagen."
+cover: "../../assets/recensioner/baccarat-rouge-540.jpg"
 ---
 
 Baccarat Rouge 540 har hunnit bli något av en generationsdoft — den typ av parfym man känner igen på tunnelbanan innan man ser vem som bär den. Frågan vi ville svara på var enkel: håller den för vardagsbruk, eller är den bara ett flaskglas fint fotograferat?

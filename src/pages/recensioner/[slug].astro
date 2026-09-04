@@ -1,5 +1,6 @@
 ---
 import { getCollection, render, type CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 
 export async function getStaticPaths() {
@@ -21,6 +22,17 @@ const d = review.data;
 
 <BaseLayout title={`${d.house} ${d.name}`} description={d.description}>
   <div class="wrap article-head">
+    {
+      d.cover && (
+        <Image
+          src={d.cover}
+          alt={`Flaska av ${d.house} ${d.name}`}
+          width={760}
+          height={944}
+          class="review-cover"
+        />
+      )
+    }
     <p class="eyebrow">{d.house} · {d.family}</p>
     <h1>{d.name}</h1>
     <p class="dek">{d.verdict}</p>
@@ -62,6 +74,16 @@ const d = review.data;
 </BaseLayout>
 
 <style>
+  .review-cover {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    aspect-ratio: 760 / 944;
+    object-fit: cover;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    margin-bottom: var(--space-3);
+  }
   .review-meta {
     display: flex;
     align-items: center;

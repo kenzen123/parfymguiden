@@ -13,6 +13,7 @@ sillage: 9
 verdict: "Ambroxanet hörs på en kilometers håll. Effektiv och pålitlig, men knappast en doft man minns i detalj."
 publishDate: 2026-06-05
 description: "Världens mest sålda herrparfym testad mot klockan. Så presterar Sauvage när hypen läggs åt sidan."
+cover: "../../assets/recensioner/sauvage.jpg"
 ---
 
 Det går knappt att skriva om herrparfym utan att förr eller senare landa i Sauvage. Sedan lanseringen 2015 har den varit så dominerande att den nästan blivit sin egen doftfamilj — "ambroxan-fräsch" är numera ett eget samtalsämne i doftkretsar.

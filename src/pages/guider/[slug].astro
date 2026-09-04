@@ -1,6 +1,7 @@
 ---
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { authors } from "../../data/authors";
 
 export async function getStaticPaths() {
   const guides = await getCollection("guider");
@@ -17,16 +18,70 @@ interface Props {
 const { guide } = Astro.props;
 const { Content } = await render(guide);
 const d = guide.data;
+const author = authors[d.author];
+const initials = d.author
+  .split(" ")
+  .map((part) => part[0])
+  .join("");
+
+const dateFmt = new Intl.DateTimeFormat("sv-SE", { year: "numeric", month: "long", day: "numeric" });
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: d.title,
+  description: d.description,
+  datePublished: d.publishDate.toISOString(),
+  dateModified: (d.updatedDate ?? d.publishDate).toISOString(),
+  inLanguage: "sv-SE",
+  author: {
+    "@type": "Person",
+    name: d.author,
+    jobTitle: author?.role,
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Parfymguiden",
+    url: "https://parfymguiden.se",
+  },
+};
 ---
 
 <BaseLayout title={d.title} description={d.description}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <div class="wrap article-head">
     <p class="eyebrow">Guide</p>
     <h1>{d.title}</h1>
     <p class="dek">{d.excerpt}</p>
+
+    <div class="byline">
+      <span class="avatar" aria-hidden="true">{initials}</span>
+      <span>
+        <span class="name">{d.author}</span>
+        <span class="role">
+          {author?.role} · Publicerad {dateFmt.format(d.publishDate)}
+          {d.updatedDate && <> · Uppdaterad {dateFmt.format(d.updatedDate)}</>}
+        </span>
+      </span>
+    </div>
   </div>
 
   <div class="wrap article-body">
     <Content />
+
+    {
+      author && (
+        <div class="author-box">
+          <span class="avatar" aria-hidden="true">
+            {initials}
+          </span>
+          <div>
+            <p class="name">{author.name}</p>
+            <p class="role">{author.role}</p>
+            <p class="bio">{author.bio}</p>
+          </div>
+        </div>
+      )
+    }
   </div>
 </BaseLayout>

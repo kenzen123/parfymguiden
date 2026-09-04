@@ -583,6 +583,138 @@ footer.site {
   margin-bottom: 0.6em;
   color: var(--ink);
 }
+.article-body h3 {
+  font-size: 1.15rem;
+  margin-top: 1.6em;
+  margin-bottom: 0.5em;
+  color: var(--ink);
+}
 .article-body strong {
   color: var(--ink);
+}
+.article-body em {
+  color: var(--ink);
+}
+.article-body a {
+  color: var(--accent-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--gold-line);
+  text-underline-offset: 2px;
+}
+.article-body a:hover {
+  text-decoration-color: currentColor;
+}
+.article-body ul,
+.article-body ol {
+  margin: 0 0 1.1em;
+  padding-left: 1.3em;
+  color: var(--ink-soft);
+}
+.article-body ul {
+  list-style: disc;
+}
+.article-body ol {
+  list-style: decimal;
+}
+.article-body li {
+  margin-bottom: 0.5em;
+}
+.article-body li::marker {
+  color: var(--accent-ink);
+}
+.article-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.92rem;
+}
+.article-body th,
+.article-body td {
+  text-align: left;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--border);
+}
+.article-body thead th {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  background: var(--surface-2);
+}
+.article-body tbody tr:nth-child(even) {
+  background: var(--surface);
+}
+.article-body hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.5em 0;
+}
+
+/* ---------- author byline ---------- */
+.byline {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: var(--space-3);
+  font-size: 0.86rem;
+  color: var(--ink-faint);
+}
+.byline .avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--accent-ink);
+  flex: none;
+}
+.byline .name {
+  color: var(--ink);
+  font-weight: 600;
+}
+.byline .role {
+  display: block;
+  font-size: 0.8rem;
+}
+.author-box {
+  margin-top: var(--space-4);
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 0.9rem;
+}
+.author-box .avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1px solid var(--border-strong);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--accent-ink);
+  flex: none;
+}
+.author-box .name {
+  font-weight: 600;
+  color: var(--ink);
+}
+.author-box .role {
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  margin-bottom: 0.35rem;
+}
+.author-box p.bio {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  max-width: 56ch;
 }

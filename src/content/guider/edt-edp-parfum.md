@@ -1,34 +1,70 @@
 ---
 title: "EDT, EDP eller parfum? Så väljer du rätt koncentration"
 excerpt: "Skillnaden handlar inte bara om pris — utan om hur doften öppnar sig, hur länge den sitter och hur nära huden den stannar."
+author: "Noa Fredriksson"
 publishDate: 2026-08-21
-description: "En praktisk guide till skillnaden mellan Eau de Toilette, Eau de Parfum och parfym/extrait – och vilken du faktiskt bör välja."
+updatedDate: 2026-09-04
+description: "En praktisk guide till skillnaden mellan Eau de Toilette, Eau de Parfum och parfym/extrait – vad koncentrationen faktiskt betyder och hur du väljer rätt."
 ---
 
-De flesta lär sig tidigt att EDP är "starkare" än EDT och parfum är "starkast" av allt. Det stämmer, men det säger nästan ingenting om varför det spelar roll i praktiken — eller varför den dyrare flaskan inte alltid är det bättre valet.
+De flesta lär sig tidigt att EDP är "starkare" än EDT och att parfym/extrait är starkast av allt. Det stämmer på pappret, men det säger nästan ingenting om varför det spelar roll i praktiken — eller varför den dyraste flaskan i hyllan inte alltid är det klokaste köpet.
 
 ## Vad beteckningarna faktiskt mäter
 
-Alla beteckningar syftar på hur stor andel parfymolja (den koncentrerade blandningen av doftämnen) som är utspädd i alkohol och vatten:
+Alla beteckningar syftar på hur stor andel parfymolja (den koncentrerade blandningen av doftämnen) som är utspädd i alkohol och vatten. Det finns ingen global, juridiskt bindande standard för exakta procentsatser — olika hus tolkar gränserna lite olika — men branschpraxis ligger ungefär så här:
 
-- **Eau Fraîche** — 1–3 % parfymolja
-- **Eau de Cologne (EDC)** — 2–5 %
-- **Eau de Toilette (EDT)** — 5–15 %
-- **Eau de Parfum (EDP)** — 15–20 %
-- **Parfum / Extrait** — 20–30 %
+| Beteckning | Parfymolja | Ungefärlig hållbarhet |
+|---|---|---|
+| Eau Fraîche | 1–3 % | 1–2 timmar |
+| Eau de Cologne (EDC) | 2–5 % | 2–3 timmar |
+| Eau de Toilette (EDT) | 5–15 % | 3–5 timmar |
+| Eau de Parfum (EDP) | 15–20 % | 5–8 timmar |
+| Parfum / Extrait | 20–30 % | 8+ timmar |
 
-Högre halt betyder mer doftämne per sprej, vilket i sin tur brukar ge längre hållbarhet och starkare spridning. Men "brukar" är nyckelordet — koncentration är bara halva historien.
+Högre halt betyder mer doftämne per sprej, vilket i sin tur *brukar* ge längre hållbarhet och starkare spridning (sillage). Men "brukar" är nyckelordet — koncentration är bara halva historien, och det är här de flesta guider slutar för tidigt.
 
 ## Varför två EDP-flaskor kan bete sig helt olika
 
-Två parfymer med samma koncentration kan hålla olika länge beroende på vilka doftmolekyler som faktiskt används. Tunga, tunga baser som moskus, ambroxan och vissa träiga ämnen sitter kvar på hud i timmar oavsett koncentration. Lätta citrusnoter försvinner snabbt oavsett hur hög halten är. Det är därför en EDT som Dior Sauvage kan hålla längre än en EDP med en mer flyktig komposition.
+Som kemist är det här den del av frågan jag får oftast, och svaret ligger i molekylerna själva, inte bara i procenttalet. Doftämnen har olika **flyktighet** — hur lätt de avdunstar från huden. Tunga, stora molekyler som moskus, ambroxan och vissa träiga föreningar sitter kvar i timmar oavsett koncentration, eftersom de helt enkelt förångas långsamt. Lätta citrusmolekyler som limonen försvinner snabbt oavsett hur hög halten är, av samma anledning omvänt.
+
+Det är därför en EDT som [Dior Sauvage](/recensioner/sauvage) — byggd kring det tunga, syntetiska ambroxanet — kan hålla längre och sprida mer än en EDP med en mer flyktig komposition av bergamott och gröna toner. I vårt test uppmätte vi Sauvage till en spridning på 9/10, vilket är högre än flera EDP:er i vår databas med betydligt högre halt.
+
+Slutsats: koncentration är en bra tumregel, men **komposition slår koncentration** när de två drar åt olika håll.
+
+## Myten om att parfym/extrait alltid är "bäst"
+
+Ett vanligt missförstånd är att den högsta koncentrationen automatiskt är det finaste eller mest sofistikerade valet. I verkligheten förändrar hög koncentration hur doften upplevs, inte bara hur länge:
+
+- **Mindre luft i kompositionen.** Alkohol fungerar delvis som ett bärmedium som får doftämnena att "lyfta" och separera i lager över tid. Med mindre alkohol (som i extrait) blandas noterna ofta tätare ihop och känns mer som en enhetlig accord än en resa från topp- till bas­not.
+- **Närmare huden.** Många extrait-versioner har lägre sillage än man tror, eftersom den täta kompositionen inte alltid "kastar" doft lika lätt som en mer flyktig EDT-formulering.
+- **Dyrare per bärning, inte nödvändigtvis bättre per bärning.** En 30 ml-flaska extrait kan kosta mer än en 100 ml EDT, men om du ändå bara använder två sprej blir prisskillnaden per användningstillfälle mindre dramatisk än flaskpriset antyder.
+
+Med andra ord: extrait är inte en uppgraderad version av EDT — det är en annan upplevelse av samma doft.
 
 ## Så väljer du i praktiken
 
-**Om du vill ha en doft nära huden, för dig själv** — en EDT eller till och med en Eau Fraîche räcker gott, och du slipper betala för koncentration du ändå inte känner av.
+**Om du vill ha en doft nära huden, för dig själv** — en EDT eller till och med en Eau Fraîche räcker gott, och du slipper betala för koncentration du ändå inte känner av. Bra för kontor, träning eller doft du bär varje dag.
 
-**Om du vill att doften ska märkas i ett rum** — en EDP eller extrait ger mer sillage och håller genom en hel arbetsdag utan påfyllning.
+**Om du vill att doften ska märkas i ett rum** — en EDP eller extrait ger i regel mer sillage och håller genom en hel arbetsdag utan påfyllning. [Baccarat Rouge 540](/recensioner/baccarat-rouge-540), som vi rankade 9,1/10 i hållbarhet, är ett bra exempel på en EDP som verkligen levererar på koncentrationen.
 
-**Om du testar en ny doft för första gången** — börja med den billigaste, mest tillgängliga koncentrationen. Att gilla en EDT betyder oftast att man gillar EDP-versionen också, men inte alltid — vissa hus ändrar receptet mellan koncentrationerna, inte bara styrkan.
+**Om du testar en ny doft för första gången** — börja med den billigaste, mest tillgängliga koncentrationen. Att gilla en EDT betyder oftast att man gillar EDP-versionen också, men inte alltid — vissa hus justerar receptet mellan koncentrationerna, inte bara styrkan, så en EDP kan sakna en not som fanns i EDT:n eller tvärtom.
 
-Den dyraste flaskan i hyllan är sällan fel val rent kvalitetsmässigt, men den är bara rätt val om du faktiskt vill ha den effekt den ger. Köp koncentration efter tillfälle, inte efter prislapp.
+**Om du är känslig mot alkohol eller har torr hud** — lägre koncentrationer med mer alkohol kan kännas mer uttorkande direkt vid applicering. En extrait med lägre alkoholhalt kan faktiskt vara skonsammare, trots att den låter "starkare".
+
+## Vanliga frågor
+
+### Är Eau de Cologne bara för herrar?
+Nej. Beteckningen syftar enbart på koncentrationen (2–5 %), inte på doftprofilen. Historiskt har "cologne" ofta använts för citrusfräscha herrdofter, men det finns inget som hindrar en blommig eller pudrig Eau de Cologne.
+
+### Håller parfym/extrait alltid längst?
+I genomsnitt ja, men som vi visar ovan i exemplet med Sauvage kan en välkomponerad EDT med tunga baser hålla längre än en EDP med flyktiga toppnoter. Kolla hållbarhetsbetyget i en recension snarare än att lita blint på beteckningen.
+
+### Kan jag spara pengar genom att köpa EDT istället för EDP av samma doft?
+Ofta ja per milliliter, men räkna på det: en EDP som håller dubbelt så länge kräver färre sprej per bärning. Jämför pris per användningstillfälle, inte bara pris per flaska.
+
+### Ändras doften mellan koncentrationerna?
+Ibland, ja. Vissa hus omformulerar delar av receptet — inte bara späder ut samma bas — när de tar fram en ny koncentration. Om du älskar en specifik EDT, testa alltid EDP-versionen på hud innan du antar att den är identisk fast starkare.
+
+---
+
+Nästa steg: när du vet vilken koncentration du letar efter, läs [6 knep som faktiskt får doften att sitta längre](/guider/hallbarhet-knep) för att få ut så mycket som möjligt av den flaska du redan har.

@@ -28,8 +28,10 @@ const guider = defineCollection({
     z.object({
       title: z.string(),
       excerpt: z.string(),
+      author: z.enum(["Elin Wallenberg", "Noa Fredriksson"]),
       cover: image().optional(),
       publishDate: z.date(),
+      updatedDate: z.date().optional(),
       description: z.string(),
     }),
 });

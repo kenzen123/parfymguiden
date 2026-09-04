@@ -1,0 +1,86 @@
+---
+import { getCollection, render, type CollectionEntry } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+export async function getStaticPaths() {
+  const reviews = await getCollection("recensioner");
+  return reviews.map((review) => ({
+    params: { slug: review.slug },
+    props: { review },
+  }));
+}
+
+interface Props {
+  review: CollectionEntry<"recensioner">;
+}
+
+const { review } = Astro.props;
+const { Content } = await render(review);
+const d = review.data;
+---
+
+<BaseLayout title={`${d.house} ${d.name}`} description={d.description}>
+  <div class="wrap article-head">
+    <p class="eyebrow">{d.house} · {d.family}</p>
+    <h1>{d.name}</h1>
+    <p class="dek">{d.verdict}</p>
+
+    <div class="review-meta">
+      <div class="review-score">
+        <span class="num">{d.score.toFixed(1)}</span>
+        <span class="den">/10</span>
+      </div>
+      <div class="chip-row">
+        <span class="chip">{d.concentration}</span>
+        <span class="chip">{d.price}</span>
+      </div>
+    </div>
+
+    <div class="notes">
+      <div><b>Topp</b> {d.notesTop}</div>
+      <div><b>Hjärta</b> {d.notesHeart}</div>
+      <div><b>Bas</b> {d.notesBase}</div>
+    </div>
+
+    <div class="meters">
+      <div class="meter-row">
+        <span>Hållbarhet</span>
+        <div class="meter-track"><div class="meter-fill" style={`width:${d.longevity * 10}%`} /></div>
+        <span class="mono">{d.longevity}/10</span>
+      </div>
+      <div class="meter-row">
+        <span>Spridning</span>
+        <div class="meter-track"><div class="meter-fill" style={`width:${d.sillage * 10}%`} /></div>
+        <span class="mono">{d.sillage}/10</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap article-body">
+    <Content />
+  </div>
+</BaseLayout>
+
+<style>
+  .review-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    margin-top: var(--space-3);
+  }
+  .article-head .notes {
+    margin-top: var(--space-3);
+    font-size: 0.92rem;
+    color: var(--ink-soft);
+  }
+  .article-head .notes div + div {
+    margin-top: 0.3rem;
+  }
+  .article-head .notes b {
+    color: var(--ink);
+  }
+  .article-head .meters {
+    margin-top: var(--space-3);
+    max-width: 26rem;
+  }
+</style>

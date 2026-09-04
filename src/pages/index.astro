@@ -1,0 +1,324 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const reviews = (await getCollection("recensioner"))
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+  .slice(0, 6);
+
+const guides = (await getCollection("guider"))
+  .sort((a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf())
+  .slice(0, 3);
+
+const families = [
+  { name: "Blommig", desc: "Ros, jasmin, pion — klassiskt och romantiskt, sällan fel val." },
+  { name: "Orientalisk / Ambrerad", desc: "Vanilj, kryddor, harts — varmt, sensuellt och kväll-lämpat." },
+  { name: "Träig", desc: "Sandelträ, cederträ, vetiver — jordnära, tryggt och könsneutralt." },
+  { name: "Citrus / Fräsch", desc: "Bergamott, citron, grönt te — lätt, kort men uppfriskande." },
+  { name: "Fougère", desc: "Lavendel, mossa, kumarin — den klassiska herrdoft-strukturen." },
+  { name: "Chypre", desc: "Bergamott möter mossa och läder — torrt och sofistikerat." },
+];
+---
+
+<BaseLayout
+  title="Parfymguiden"
+  description="Oberoende parfymrecensioner, doftguider och en karta över dofttyper. Vi köper varje flaska själva och testar den i två veckor innan vi skriver ett ord."
+>
+  <section class="hero wrap">
+    <div>
+      <p class="eyebrow">Oberoende doftjournalistik sedan 2021</p>
+      <h1>Vi testar dofterna<br />så att du <em>slipper gissa.</em></h1>
+      <p class="lede">
+        Varje flaska köps själv, bärs i två veckor och bedöms utan tjusiga pressutskick. Här hittar du ärliga
+        recensioner, doftguider och en karta över vilken familj som faktiskt passar dig.
+      </p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#senaste">Läs senaste recensionen</a>
+        <a class="btn btn-ghost" href="#dofttyper">Utforska dofttyper</a>
+      </div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 220 300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="var(--accent-ink)"></stop>
+            <stop offset="1" stop-color="var(--accent)"></stop>
+          </linearGradient>
+        </defs>
+        <circle class="wisp w1" cx="70" cy="55" r="10" fill="var(--accent)" opacity="0.4"></circle>
+        <circle class="wisp w2" cx="150" cy="40" r="6" fill="var(--accent-2)" opacity="0.4"></circle>
+        <circle class="wisp w3" cx="120" cy="70" r="4" fill="var(--accent)" opacity="0.5"></circle>
+        <rect x="85" y="18" width="50" height="26" rx="6" fill="none" stroke="var(--ink-faint)" stroke-width="2"
+        ></rect>
+        <rect x="95" y="10" width="30" height="12" rx="3" fill="var(--ink-faint)" opacity="0.5"></rect>
+        <path
+          d="M70 44h80l16 42c5 13 7.5 27 7.5 41v120a16 16 0 0 1-16 16H62.5a16 16 0 0 1-16-16V127c0-14 2.5-28 7.5-41L70 44Z"
+          fill="url(#liquid)"
+          opacity="0.85"></path>
+        <path
+          d="M70 44h80l16 42c5 13 7.5 27 7.5 41v120a16 16 0 0 1-16 16H62.5a16 16 0 0 1-16-16V127c0-14 2.5-28 7.5-41L70 44Z"
+          fill="none"
+          stroke="var(--ink)"
+          stroke-width="2"
+          opacity="0.18"></path>
+        <rect x="46.5" y="120" width="127" height="1.6" fill="var(--surface)" opacity="0.5"></rect>
+      </svg>
+    </div>
+  </section>
+
+  <div class="wrap intro-strip">
+    <p>
+      <strong>Precis som en doft byggs i tre lager, byggs den här sidan på samma sätt:</strong> toppnoten är det
+      färska och nya, hjärtnoten är fördjupningen som stannar kvar, och basnoten är grunderna som bär upp alltihop.
+    </p>
+  </div>
+
+  <!-- TOPPNOT -->
+  <section class="pillar wrap" id="senaste">
+    <div class="pillar-head">
+      <div>
+        <p class="eyebrow">Toppnot — det första intrycket</p>
+        <h2>Färska recensioner</h2>
+      </div>
+      <p class="desc">De senaste flaskorna vi har testat klart, rankade på hållbarhet, spridning och helhetsintryck.</p>
+    </div>
+
+    <div class="review-grid">
+      {
+        reviews.map((review) => (
+          <a class="review-card" href={`/recensioner/${review.slug}`}>
+            <div class="review-top">
+              <div>
+                <p class="review-house">{review.data.house}</p>
+                <h3 class="review-name">{review.data.name}</h3>
+              </div>
+              <div class="review-score">
+                <span class="num">{review.data.score.toFixed(1)}</span>
+                <span class="den">/10</span>
+              </div>
+            </div>
+            <div class="chip-row">
+              <span class="chip">{review.data.concentration}</span>
+              <span class="chip">{review.data.price}</span>
+              <span class="chip">{review.data.family}</span>
+            </div>
+            <div class="notes">
+              <div>
+                <b>Topp</b> {review.data.notesTop}
+              </div>
+              <div>
+                <b>Hjärta</b> {review.data.notesHeart}
+              </div>
+              <div>
+                <b>Bas</b> {review.data.notesBase}
+              </div>
+            </div>
+            <div class="meters">
+              <div class="meter-row">
+                <span>Hållbarhet</span>
+                <div class="meter-track">
+                  <div class="meter-fill" style={`width:${review.data.longevity * 10}%`} />
+                </div>
+                <span class="mono">{review.data.longevity}/10</span>
+              </div>
+              <div class="meter-row">
+                <span>Spridning</span>
+                <div class="meter-track">
+                  <div class="meter-fill" style={`width:${review.data.sillage * 10}%`} />
+                </div>
+                <span class="mono">{review.data.sillage}/10</span>
+              </div>
+            </div>
+            <p class="verdict">{review.data.verdict}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- HJÄRTNOT -->
+  <section class="pillar wrap" id="fordjupning">
+    <div class="pillar-head">
+      <div>
+        <p class="eyebrow">Hjärtnot — det som stannar kvar</p>
+        <h2>Fördjupning &amp; guider</h2>
+      </div>
+      <p class="desc">Längre texter om hur parfym faktiskt fungerar, så att du kan fatta egna beslut i doftdisken.</p>
+    </div>
+
+    <div class="guide-grid">
+      {
+        guides.map((guide, i) => (
+          <a class="guide-card" href={`/guider/${guide.slug}`}>
+            <p class="idx mono">{String(i + 1).padStart(2, "0")}</p>
+            <h3>{guide.data.title}</h3>
+            <p>{guide.data.excerpt}</p>
+            <span class="read-more">Läs guiden →</span>
+          </a>
+        ))
+      }
+    </div>
+
+    <div class="family-grid" id="dofttyper" style="margin-top: var(--space-4);">
+      {
+        families.map((f) => (
+          <div class="family-card">
+            <h3>{f.name}</h3>
+            <p>{f.desc}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- BASNOT -->
+  <section class="pillar wrap" id="om">
+    <div class="pillar-head">
+      <div>
+        <p class="eyebrow">Basnot — det som bär upp allt</p>
+        <h2>Grunderna</h2>
+      </div>
+      <p class="desc">Referensen vi själva slår upp när minnet sviker.</p>
+    </div>
+
+    <div class="table-wrap">
+      <table class="ref">
+        <thead>
+          <tr>
+            <th>Beteckning</th>
+            <th>Parfymolja</th>
+            <th>Ungefärlig hållbarhet</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Eau Fraîche</td>
+            <td class="num">1–3 %</td>
+            <td class="num">1–2 timmar</td>
+          </tr>
+          <tr>
+            <td>Eau de Cologne (EDC)</td>
+            <td class="num">2–5 %</td>
+            <td class="num">2–3 timmar</td>
+          </tr>
+          <tr>
+            <td>Eau de Toilette (EDT)</td>
+            <td class="num">5–15 %</td>
+            <td class="num">3–5 timmar</td>
+          </tr>
+          <tr>
+            <td>Eau de Parfum (EDP)</td>
+            <td class="num">15–20 %</td>
+            <td class="num">5–8 timmar</td>
+          </tr>
+          <tr>
+            <td>Parfum / Extrait</td>
+            <td class="num">20–30 %</td>
+            <td class="num">8+ timmar</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="about-box" style="margin-top: var(--space-4); padding-top: var(--space-3); border-top: 1px solid var(--border);">
+      <div>
+        <p class="eyebrow" style="margin-bottom:.4rem;">Om Parfymguiden</p>
+        <p style="color: var(--ink-soft); max-width: 58ch;">
+          Vi köper varje flaska själva och bär den i minst två veckor — i vardagen, på kvällen och en sväng i regnet —
+          innan vi skriver ett ord. Inga sponsrade recensioner, inga gissningar, inga stjärnor delade ut på grund av
+          ett fint pressutskick.
+        </p>
+        <p style="margin-top: 0.6rem; font-size: 0.82rem; color: var(--ink-faint);">
+          Skrivet av testteamet i Stockholm, sedan 2021.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    padding-block: var(--space-5) var(--space-4);
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: var(--space-4);
+    align-items: center;
+  }
+  .hero h1 {
+    font-size: var(--step-4);
+    line-height: 1.04;
+    margin-block: 0.6rem 1.1rem;
+    font-weight: 500;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--accent-ink);
+    font-weight: 400;
+  }
+  .hero p.lede {
+    font-size: 1.1rem;
+    color: var(--ink-soft);
+    max-width: 42ch;
+    margin-bottom: var(--space-3);
+  }
+  .hero-ctas {
+    display: flex;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+  }
+  .hero-art {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .hero-art svg {
+    width: min(320px, 80%);
+    height: auto;
+  }
+  .wisp {
+    animation: float 7s ease-in-out infinite;
+    transform-origin: center;
+  }
+  .wisp.w2 {
+    animation-delay: -2.3s;
+    animation-duration: 8.5s;
+  }
+  .wisp.w3 {
+    animation-delay: -4.6s;
+    animation-duration: 6.2s;
+  }
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0) scale(1);
+      opacity: 0.55;
+    }
+    50% {
+      transform: translateY(-14px) scale(1.06);
+      opacity: 0.85;
+    }
+  }
+  .intro-strip {
+    padding-block: var(--space-4) 0;
+  }
+  .intro-strip p {
+    max-width: 62ch;
+    color: var(--ink-soft);
+    font-size: 1.02rem;
+  }
+  .intro-strip strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+  @media (max-width: 860px) {
+    .hero {
+      grid-template-columns: 1fr;
+    }
+    .hero-art {
+      order: -1;
+    }
+    .hero h1 {
+      font-size: clamp(2.2rem, 8vw, 3rem);
+    }
+  }
+</style>

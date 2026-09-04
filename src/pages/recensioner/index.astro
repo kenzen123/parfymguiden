@@ -1,0 +1,75 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const reviews = (await getCollection("recensioner")).sort(
+  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
+---
+
+<BaseLayout
+  title="Recensioner"
+  description="Alla parfymrecensioner från Parfymguiden, rankade på hållbarhet, spridning och helhetsintryck. Vi köper varje flaska själva."
+>
+  <section class="pillar wrap" style="border-top: none;">
+    <div class="pillar-head">
+      <div>
+        <p class="eyebrow">Recensioner</p>
+        <h1>Alla recensioner</h1>
+      </div>
+      <p class="desc">{reviews.length} dofter testade och rankade — nya recensioner varje vecka.</p>
+    </div>
+
+    <div class="review-grid">
+      {
+        reviews.map((review) => (
+          <a class="review-card" href={`/recensioner/${review.slug}`}>
+            <div class="review-top">
+              <div>
+                <p class="review-house">{review.data.house}</p>
+                <h2 class="review-name">{review.data.name}</h2>
+              </div>
+              <div class="review-score">
+                <span class="num">{review.data.score.toFixed(1)}</span>
+                <span class="den">/10</span>
+              </div>
+            </div>
+            <div class="chip-row">
+              <span class="chip">{review.data.concentration}</span>
+              <span class="chip">{review.data.price}</span>
+              <span class="chip">{review.data.family}</span>
+            </div>
+            <div class="notes">
+              <div>
+                <b>Topp</b> {review.data.notesTop}
+              </div>
+              <div>
+                <b>Hjärta</b> {review.data.notesHeart}
+              </div>
+              <div>
+                <b>Bas</b> {review.data.notesBase}
+              </div>
+            </div>
+            <div class="meters">
+              <div class="meter-row">
+                <span>Hållbarhet</span>
+                <div class="meter-track">
+                  <div class="meter-fill" style={`width:${review.data.longevity * 10}%`} />
+                </div>
+                <span class="mono">{review.data.longevity}/10</span>
+              </div>
+              <div class="meter-row">
+                <span>Spridning</span>
+                <div class="meter-track">
+                  <div class="meter-fill" style={`width:${review.data.sillage * 10}%`} />
+                </div>
+                <span class="mono">{review.data.sillage}/10</span>
+              </div>
+            </div>
+            <p class="verdict">{review.data.verdict}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

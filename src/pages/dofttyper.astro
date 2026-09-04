@@ -1,0 +1,92 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const families = [
+  {
+    name: "Blommig",
+    desc: "Ros, jasmin, pion — klassiskt och romantiskt, sällan fel val.",
+    long: "Den äldsta och bredaste doftfamiljen. Spänner från lätta, gröna blommiga toner till tunga, indoliska vita blommor som tuberos och jasmin. Fungerar året runt men känns starkast på våren och sommaren.",
+  },
+  {
+    name: "Orientalisk / Ambrerad",
+    desc: "Vanilj, kryddor, harts — varmt, sensuellt och kväll-lämpat.",
+    long: "Byggd kring varma, söta baser som vanilj, benzoe och labdanum, ofta kryddad med kanel eller kardemumma. Tung och långlivad — de flesta orientaliska dofter passar bäst på kvällen och under kallare månader.",
+  },
+  {
+    name: "Träig",
+    desc: "Sandelträ, cederträ, vetiver — jordnära och tryggt.",
+    long: "Sandelträ, cederträ, vetiver och patchouli utgör kärnan. En av de mest könsneutrala familjerna, och ofta basen i andra doftfamiljer snarare än ett rent tema i sig självt.",
+  },
+  {
+    name: "Citrus / Fräsch",
+    desc: "Bergamott, citron, grönt te — lätt och uppfriskande.",
+    long: "Bergamott, citron, grapefrukt och grönt te. Flyktiga toppnoter gör att citrusdofter sällan håller länge, men de är lätta att bära i stora mängder och passar varma dagar.",
+  },
+  {
+    name: "Fougère",
+    desc: "Lavendel, mossa, kumarin — klassiskt herrdoft-DNA.",
+    long: "Franska för 'ormbunke' — en abstrakt struktur snarare än en naturlig doft. Lavendel, ekmossa och kumarin (som ger en sötaktig hö-doft) definierar nästan all klassisk herrparfym sedan 1880-talet.",
+  },
+  {
+    name: "Chypre",
+    desc: "Bergamott möter mossa och läder — sofistikerat och torrt.",
+    long: "Bergamott i toppen, ekmossa och labdanum i basen. Torrare och mer sofistikerad än de flesta andra familjer, men mindre vanlig idag sedan restriktioner begränsat användningen av traditionell ekmossa.",
+  },
+];
+---
+
+<BaseLayout
+  title="Dofttyper"
+  description="En guide till parfymens huvudsakliga doftfamiljer: blommig, orientalisk, träig, citrus, fougère och chypre — vad de betyder och när de passar."
+>
+  <section class="pillar wrap" style="border-top: none;">
+    <div class="pillar-head">
+      <div>
+        <p class="eyebrow">Referens</p>
+        <h1>Dofttyper</h1>
+      </div>
+      <p class="desc">De sex familjer de flesta parfymer utgår från, och vad som kännetecknar var och en.</p>
+    </div>
+
+    <div class="family-list">
+      {
+        families.map((f) => (
+          <article class="family-detail">
+            <h2>{f.name}</h2>
+            <p class="tagline">{f.desc}</p>
+            <p>{f.long}</p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .family-list {
+    display: grid;
+    gap: var(--space-4);
+    max-width: 68ch;
+  }
+  .family-detail {
+    padding-top: var(--space-3);
+    border-top: 1px solid var(--border);
+  }
+  .family-detail:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+  .family-detail h2 {
+    font-size: var(--step-2);
+  }
+  .family-detail .tagline {
+    margin-top: 0.4rem;
+    color: var(--accent-ink);
+    font-size: 0.92rem;
+    font-family: var(--font-mono);
+  }
+  .family-detail p:last-child {
+    margin-top: 0.7rem;
+    color: var(--ink-soft);
+  }
+</style>

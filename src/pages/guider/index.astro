@@ -1,0 +1,36 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+
+const guides = (await getCollection("guider")).sort(
+  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
+---
+
+<BaseLayout
+  title="Guider"
+  description="Fördjupande guider om parfym: koncentration, hållbarhet, nisch kontra designer och mer. Skrivna av testteamet bakom Parfymguiden."
+>
+  <section class="pillar wrap" style="border-top: none;">
+    <div class="pillar-head">
+      <div>
+        <p class="eyebrow">Hjärtnot — det som stannar kvar</p>
+        <h1>Alla guider</h1>
+      </div>
+      <p class="desc">Längre texter om hur parfym faktiskt fungerar.</p>
+    </div>
+
+    <div class="guide-grid">
+      {
+        guides.map((guide, i) => (
+          <a class="guide-card" href={`/guider/${guide.slug}`}>
+            <p class="idx mono">{String(i + 1).padStart(2, "0")}</p>
+            <h2>{guide.data.title}</h2>
+            <p>{guide.data.excerpt}</p>
+            <span class="read-more">Läs guiden →</span>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+</BaseLayout>

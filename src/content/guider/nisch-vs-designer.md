@@ -17,7 +17,19 @@ Det här är inte ett vetenskapligt dubbelblindtest i akademisk mening, men blin
 
 ## Vad "nisch" egentligen betyder
 
-Nisch är ingen skyddad eller reglerad term, men i praktiken syftar det oftast på mindre parfymhus som Le Labo, Byredo eller Maison Francis Kurkdjian: mindre produktionsvolymer, färre distributionskanaler och ofta — men inte alltid — dyrare eller mer ovanliga råvaror. Designerhus som Dior eller Chanel producerar i mycket större skala, vilket sänker kostnaden per flaska oavsett kvaliteten på innehållet.
+Nisch är ingen skyddad eller reglerad term — den beskriver i praktiken ett bolags fokus, inte dess storlek eller ägarstruktur. Ett nischhus ägnar sig uteslutande åt doft (ibland kompletterat med ljus eller rökelse), snarare än att vara en del av ett bredare livsstilsvarumärke med kläder, väskor och smycken.
+
+Det är lätt att anta att "nisch" betyder litet och oberoende, men så är det sällan längre. Le Labo och Frédéric Malle ägs av Estée Lauder. Byredo ägs av Puig. Maison Francis Kurkdjian ägs av LVMH — samma koncern som äger Dior. De första nischhusen som dök upp i slutet av 1900-talet, som L'Artisan Parfumeur, Frédéric Malle, Annick Goutal och Serge Lutens, startade faktiskt som en reaktion mot massproduktion och ville lyfta fram parfymören som konstnär snarare än anonym anställd. Flera av dem har sedan dess själva köpts upp av just de koncerner de en gång definierade sig emot.
+
+## Vad definierar en designerdoft?
+
+Designerdofter kommer från varumärken vars huvudsakliga verksamhet inte är parfym — mode, väskor, smycken. Doften tas fram i samarbete med stora doftlaboratorier som Givaudan, Firmenich eller IFF, där anställda parfymörer komponerar en doft som ska passa varumärkets identitet och nå en bred publik. Det är en process som gett upphov till några av parfymhistoriens mest ikoniska dofter — Chanel N°5, Dior J'Adore, Terre d'Hermès — och en bred publik betyder inte per definition en sämre komposition, bara en annan målsättning än nischhusens.
+
+## Ultra-nisch och indie — inte samma sak som "nisch"
+
+Letar du efter det som faktiskt är litet och oberoende är det egentligen **indie** du vill ha, inte nisch. Indiehus ägs och drivs av enskilda parfymörer eller små team utan koppling till någon koncern, och prioriterar ofta personligt hantverk och udda råvaruval framför bred kommersiell räckvidd.
+
+**Ultra-nisch** är en lösare, känslostyrd term som cirkulerar i doftcommunityn på sociala medier — den beskriver dofter som är extremt svårtillgängliga, experimentella eller medvetet provocerande. Gränsen är subjektiv och handlar minst lika mycket om hype och "insider-status" som om faktisk sällsynthet.
 
 ## Tre exempel ur vårt test
 
@@ -43,6 +55,8 @@ Notera att detta är stilmässigt liknande par, inte "kloner" — ingen av desig
 
 Om du letar efter en unik doftprofil som få andra i din omgivning bär, är nisch ofta värt det — vårt test visade tydligt att det är där de faktiska skillnaderna finns. Om du vill ha en pålitlig, välfungerande doft till vardags, är många designerdofter fullt jämförbara i ren kvalitet, till en bråkdel av priset. Prisskillnaden köper dig sällan bättre parfym rakt av; den köper dig oftare en annan sorts risktagande i kompositionen.
 
+Och om det som faktiskt lockar dig är tanken på ett litet, oberoende hus snarare än enbart en ovanlig doftprofil — kom ihåg att leta efter *indie*, inte bara "nisch". Etiketten "nisch" garanterar inte längre oberoende, bara ett smalare fokus.
+
 ## Vanliga frågor
 
 ### Är dyrare parfym alltid mer koncentrerad?
@@ -53,3 +67,9 @@ Inte i vårt test. Hållbarheten hängde mer ihop med enskilda doftmolekylers fl
 
 ### Finns det nischdofter som är billigare än designerdofter?
 Ja, men det är ovanligare. De flesta nischhus positionerar sig medvetet i det övre prissegmentet som en del av sin identitet, oavsett produktionskostnad.
+
+### Är nischparfym alltid litet och oberoende?
+Nej — det är den vanligaste missuppfattningen. Många av de mest kända nischhusen (Le Labo, Byredo, Maison Francis Kurkdjian) ägs av samma stora koncerner som äger de klassiska designerhusen. "Nisch" beskriver bolagets fokus på doft, inte dess storlek eller ägare.
+
+### Vad är skillnaden mellan nisch och indie?
+Nisch syftar på husets fokus — det gör bara doft, inget annat. Indie syftar på ägarstrukturen — huset drivs oberoende, utan koppling till en stor koncern. Ett hus kan vara båda, men det ena garanterar inte det andra.

@@ -11,7 +11,7 @@ Internet är fullt av knep för att få parfym att hålla längre, men de flesta
 
 ## Så testade vi
 
-Vi rekryterade 14 läsare ur vårt nyhetsbrev med blandade hudtyper (fem torra, sex normala, tre feta) och gav alla samma doft att testa: [Dior Sauvage EDT](/recensioner/sauvage), vald för att den är lättillgänglig och har en väldokumenterad, medelhög hållbarhet i vår egen databas — ett bra neutralt jämförelseobjekt.
+Vi rekryterade 14 läsare ur vår läsarpanel med blandade hudtyper (fem torra, sex normala, tre feta) och gav alla samma doft att testa: [Dior Sauvage EDT](/recensioner/sauvage), vald för att den är lättillgänglig och har en väldokumenterad, medelhög hållbarhet i vår egen databas — ett bra neutralt jämförelseobjekt.
 
 Varje testperson sprejade doften på båda handlederna med exakt två sprej per handled, ett standardiserat "test-knep" på den ena och ingen särskild behandling (kontroll) på den andra. Var sjätte timme rapporterade de om de fortfarande kunde känna doften på respektive handled, och en oberoende person i deras närhet fick lukta och bekräfta. Vi upprepade varje knep tre gånger under sex veckor för att jämna ut individuella variationer.
 

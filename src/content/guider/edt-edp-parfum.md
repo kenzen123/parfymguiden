@@ -21,6 +21,8 @@ Alla beteckningar syftar på hur stor andel parfymolja (den koncentrerade blandn
 | Eau de Parfum (EDP) | 15–20 % | 5–8 timmar |
 | Parfum / Extrait | 20–30 % | 8+ timmar |
 
+Anledningen till att det inte finns en exakt gräns är att branschens organ, <a href="https://ifrafragrance.org" target="_blank" rel="noopener noreferrer">IFRA (International Fragrance Association)</a>, reglerar vilka doftämnen som får användas och i vilka mängder av säkerhetsskäl — inte hur mycket parfymolja en flaska märkt "EDT" måste innehålla. Beteckningarna är alltså branschpraxis, inte lag, vilket är precis varför två hus procenttal kan skilja sig åt trots samma etikett.
+
 Högre halt betyder mer doftämne per sprej, vilket i sin tur *brukar* ge längre hållbarhet och starkare spridning (sillage). Men "brukar" är nyckelordet — koncentration är bara halva historien, och det är här de flesta guider slutar för tidigt.
 
 ## Varför två EDP-flaskor kan bete sig helt olika
@@ -51,10 +53,22 @@ Med andra ord: extrait är inte en uppgraderad version av EDT — det är en ann
 
 **Om du är känslig mot alkohol eller har torr hud** — lägre koncentrationer med mer alkohol kan kännas mer uttorkande direkt vid applicering. En extrait med lägre alkoholhalt kan faktiskt vara skonsammare, trots att den låter "starkare".
 
+## Varifrån kommer namnen?
+
+"Eau de Cologne" är inte bara en koncentrationsnivå — det är också ursprungligen ett faktiskt varunamn. Den italienske parfymören Giovanni Maria Farina, bosatt i den tyska staden Köln (franska: Cologne), skapade 1709 en doft av bergamott, citron, neroli, rosmarin och lavendel som han döpte efter sin nya hemstad. Receptet blev så populärt att "cologne" så småningom blev ett generiskt begrepp för hela koncentrationskategorin, ungefär som "tejp" eller "termos" en gång var varumärken. <a href="https://sv.wikipedia.org/wiki/Eau_de_cologne" target="_blank" rel="noopener noreferrer">Farinas originalrecept tillverkas fortfarande i Köln idag</a>.
+
+Det är också därför citrusfräscha, lätta dofter historiskt förknippats med just koncentrationen "cologne" — inte för att beteckningen kräver det, utan för att det var vad den allra första i sitt slag råkade lukta.
+
+## Testa på hud, inte bara på blotter
+
+I butik doftar man ofta på en pappersremsa (en "blotter") snarare än på egen hud, av praktiska skäl — man hinner testa fler dofter utan att huden blir överbelastad. Men en blotter saknar hudens värme, fukt och naturliga oljor, vilket är exakt de faktorer som avgör hur en doft faktiskt utvecklas över tid.
+
+En doft kan lukta helt rakt av på papper och bli betydligt sötare, rundare eller mer moskusartad på din hud, eftersom hudens egen kemi interagerar med kompositionen. Regeln de flesta parfymörer själva följer: låt en doft du gillar på blotter få leva på din hud i minst 30 minuter innan du bestämmer dig — helst en hel dag, om butiken tillåter det.
+
 ## Vanliga frågor
 
 ### Är Eau de Cologne bara för herrar?
-Nej. Beteckningen syftar enbart på koncentrationen (2–5 %), inte på doftprofilen. Historiskt har "cologne" ofta använts för citrusfräscha herrdofter, men det finns inget som hindrar en blommig eller pudrig Eau de Cologne.
+Nej. Beteckningen syftar enbart på koncentrationen (2–5 %), inte på doftprofilen. Farinas originaldoft var i praktiken unisex, och historiken ovan förklarar varför "cologne" ändå blivit synonymt med citrusfräscha herrdofter — inget i beteckningen hindrar en blommig eller pudrig Eau de Cologne.
 
 ### Håller parfym/extrait alltid längst?
 I genomsnitt ja, men som vi visar ovan i exemplet med Sauvage kan en välkomponerad EDT med tunga baser hålla längre än en EDP med flyktiga toppnoter. Kolla hållbarhetsbetyget i en recension snarare än att lita blint på beteckningen.

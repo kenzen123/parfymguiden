@@ -33,6 +33,20 @@ Det här är ingen laboratoriestudie — det är ett litet, egenfinansierat läs
 
 **6. Parfym i håret.** Håret håller doft längre än hud rent kemiskt eftersom det inte har samma omsättning av hudceller, men eftersom de flesta dofter innehåller alkohol kan upprepad sprejning torka ut håret över tid. Den upplevda hållbarhetsvinsten i vårt test var marginell jämfört med den risken, och vi rekommenderar det bara för dofter du redan vet är milda.
 
+## Spelar väder och årstid roll?
+
+Ja, av samma anledning som de sex knepen ovan handlar om fukt och värme: temperatur styr hur snabbt doftmolekyler avdunstar. Vårt sexveckorstest kördes under sensommaren, men mönstret håller även utanför testperioden, eftersom det är grundläggande fysik snarare än något specifikt för just Sauvage.
+
+**Varmt väder** får doften att avdunsta snabbare — du känner mer av den direkt (större spridning), men den kan också klinga av tidigare. **Kallt väder** gör tvärtom: doften sitter närmare huden och håller längre rent tidsmässigt, men syns mindre för omgivningen. Det är en del av förklaringen till varför tunga, ambrerade dofter traditionellt förknippas med vinterhalvåret och lätta citrusdofter med sommaren — det är inte bara stämning, utan hur dofterna faktiskt beter sig i olika temperaturer.
+
+Praktiskt betyder det att du kan behöva applicera något oftare på en kall vinterdag om du vill att doften ska märkas för andra, och något mer sparsamt en varm sommardag om du vill att den ska räcka hela dagen.
+
+## Funkar det att spreja på kläder istället för hud?
+
+Delvis, men det är inte en genväg till samma resultat. Tyg saknar hudens värme och fukt, så doften utvecklas inte på samma sätt genom topp-, hjärt- och basnoter — den tenderar att stanna mer statisk och kan lukta "plattare" över tid jämfört med hud. Å andra sidan avdunstar den ofta långsammare från tyg än från hud, eftersom det inte finns någon kroppsvärme som driver på förångningen, vilket är varför en tröja ibland doftar svagt av parfym flera dagar senare.
+
+Var försiktig med ljusa eller ömtåliga material — alkoholen i de flesta parfymer kan missfärga siden och vissa syntetmaterial. Testa alltid på en dold del av plagget först, och håll dig till hud eller hår om du vill uppleva doften som den är tänkt.
+
 ## Sammanfattning
 
 | Knep | Effekt på hållbarhet |
@@ -56,3 +70,6 @@ I vårt test använde alla testpersoner samma doftfria, ceramidbaserade lotion f
 
 ### Kan man förvara parfym på ett sätt som gör att den håller längre på huden?
 Förvaring påverkar flaskans hållbarhet över tid (svalt, mörkt, undvik badrumsvärme och fukt), men det påverkar inte hur länge doften sitter kvar på huden vid ett enskilt tillfälle — det är applikationstekniken som styr det, vilket är vad den här guiden testar.
+
+### Varför luktar en doft annorlunda i butiken än hemma på min hud?
+Troligen för att du testade den på en pappersremsa i butiken. Se avsnittet om [att testa på hud snarare än blotter](/guider/edt-edp-parfum#testa-på-hud-inte-bara-på-blotter) i vår guide om koncentrationer för varför det gör skillnad.

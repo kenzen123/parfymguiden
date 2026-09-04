@@ -19,7 +19,9 @@ Det här är inte ett vetenskapligt dubbelblindtest i akademisk mening, men blin
 
 Nisch är ingen skyddad eller reglerad term — den beskriver i praktiken ett bolags fokus, inte dess storlek eller ägarstruktur. Ett nischhus ägnar sig uteslutande åt doft (ibland kompletterat med ljus eller rökelse), snarare än att vara en del av ett bredare livsstilsvarumärke med kläder, väskor och smycken.
 
-Det är lätt att anta att "nisch" betyder litet och oberoende, men så är det sällan längre. Le Labo och Frédéric Malle ägs av Estée Lauder. Byredo ägs av Puig. Maison Francis Kurkdjian ägs av LVMH — samma koncern som äger Dior. De första nischhusen som dök upp i slutet av 1900-talet, som L'Artisan Parfumeur, Frédéric Malle, Annick Goutal och Serge Lutens, startade faktiskt som en reaktion mot massproduktion och ville lyfta fram parfymören som konstnär snarare än anonym anställd. Flera av dem har sedan dess själva köpts upp av just de koncerner de en gång definierade sig emot.
+Det är lätt att anta att "nisch" betyder litet och oberoende, men så är det sällan längre. Le Labo och Frédéric Malle ägs av Estée Lauder. Byredo ägs av Puig. Maison Francis Kurkdjian ägs av LVMH — samma koncern som äger Dior. Ett av de första nischhusen, <a href="https://en.wikipedia.org/wiki/L%27Artisan_Parfumeur" target="_blank" rel="noopener noreferrer">L'Artisan Parfumeur</a>, grundades 1976 av Jean Laporte som en uttalad reaktion mot massproduktion — tanken var att lyfta fram parfymören som konstnär snarare än anonym anställd hos en stor koncern. Flera av de hus som följde samma idé har sedan dess själva köpts upp av just de koncerner de en gång definierade sig emot.
+
+Vill du läsa mer om hur branschen själv definierar begreppet finns en bra genomgång hos <a href="https://www.fragrantica.com/news/What-is-Niche-Perfumery-100.html" target="_blank" rel="noopener noreferrer">Fragrantica</a>, en av de största doftpublikationerna.
 
 ## Vad definierar en designerdoft?
 
@@ -30,6 +32,12 @@ Designerdofter kommer från varumärken vars huvudsakliga verksamhet inte är pa
 Letar du efter det som faktiskt är litet och oberoende är det egentligen **indie** du vill ha, inte nisch. Indiehus ägs och drivs av enskilda parfymörer eller små team utan koppling till någon koncern, och prioriterar ofta personligt hantverk och udda råvaruval framför bred kommersiell räckvidd.
 
 **Ultra-nisch** är en lösare, känslostyrd term som cirkulerar i doftcommunityn på sociala medier — den beskriver dofter som är extremt svårtillgängliga, experimentella eller medvetet provocerande. Gränsen är subjektiv och handlar minst lika mycket om hype och "insider-status" som om faktisk sällsynthet.
+
+## Så beskriver nischhusen sig själva
+
+Det är värt att läsa hur nischbranschen faktiskt marknadsför sig, för det säger en hel del om varför prisskillnaden känns motiverad även innan man doftat på något. Den tyska nischåterförsäljaren <a href="https://www.woodberg.de/en/blogs/blog/what-are-niche-perfumes" target="_blank" rel="noopener noreferrer">Woodberg</a> beskriver nischdofter som kompositioner som "uttrycker parfymörens personliga vision", med högre koncentrationer och begränsade upplagor — språk som medvetet ställer konstnärlig integritet mot massmarknadens breda tilltal. Nischhuset <a href="https://marcantoinebarrois.com/en/blogs/guide/niche-perfume-french-brands" target="_blank" rel="noopener noreferrer">Marc-Antoine Barrois</a> lutar sig på liknande sätt mot hantverk, sällsynta råvaror och selektiv distribution som sin identitet.
+
+Det här är inte fel i sak — många nischhus lever verkligen upp till det. Men det är också, ordagrant, marknadsföringstext skriven av företag som säljer nischparfym. Det är precis den typen av påstående vårt blindtest var designat för att pröva: om testarna faktiskt kunde känna skillnaden utan att veta vilket varumärke eller vilken prislapp de doftade på. Som avsnittet nedan visar kunde de det bara i fyra av tio par.
 
 ## Tre exempel ur vårt test
 
@@ -50,6 +58,12 @@ Notera att detta är stilmässigt liknande par, inte "kloner" — ingen av desig
 **Designerdofterna vann på pris per bärning.** Räknar man kostnad delat på antal gånger man faktiskt kan använda flaskan innan den tar slut, vann designerparfym i åtta av tio par — särskilt när hållbarheten var jämförbar mellan paren.
 
 **Förpackning och butiksupplevelse drar upp priset mer än innehållet.** Flera nischhus lägger uppenbart mer i flaska, kork och butiksinredning. Det är inte fel i sig, men det är värt att veta att man delvis betalar för det, inte enbart för vad som faktiskt är i flaskan.
+
+## Testa det själv hemma
+
+Du behöver inte fem läsare och kodade flasknummer för att pröva samma sak på egen hand. Be en vän eller partner hälla upp två dofter i liknande stil — en nisch, en designer — i identiska, omärkta rollerflaskor eller sprejflaskor. Låt dem skriva "A" och "B" på flaskorna utan att berätta vilken som är vilken.
+
+Testa båda på var sin handled, vänta minst 30 minuter (toppnoterna hinner då lägga sig), och skriv ner vad du faktiskt tycker om varje doft — inte vilken du *tror* är dyrast. Fråga dig sedan: skulle du kunnat gissa rätt utan etiketten? Om svaret är nej, vet du att det du faktiskt betalar för med den dyrare flaskan är känslan av varumärket snarare än en hörbar doftskillnad — vilket förstås kan vara värt det för dig, men är bra att veta.
 
 ## Så väljer du
 

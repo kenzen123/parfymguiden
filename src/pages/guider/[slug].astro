@@ -2,6 +2,7 @@
 import { getCollection, render, type CollectionEntry } from "astro:content";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { authors } from "../../data/authors";
+import { extractFaq } from "../../lib/extractFaq";
 
 export async function getStaticPaths() {
   const guides = await getCollection("guider");
@@ -45,10 +46,25 @@ const jsonLd = {
     url: "https://parfymguiden.se",
   },
 };
+
+const faqs = extractFaq(guide.body);
+const faqJsonLd =
+  faqs.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: { "@type": "Answer", text: faq.answer },
+        })),
+      }
+    : null;
 ---
 
 <BaseLayout title={d.title} description={d.description}>
   <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  {faqJsonLd && <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />}
   <div class="wrap article-head">
     <p class="eyebrow">Guide</p>
     <h1>{d.title}</h1>

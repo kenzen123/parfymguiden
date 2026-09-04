@@ -1,0 +1,59 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const updated = new Intl.DateTimeFormat("sv-SE", { year: "numeric", month: "long", day: "numeric" }).format(
+  new Date("2026-09-04")
+);
+---
+
+<BaseLayout
+  title="Integritetspolicy"
+  description="Så hanterar Parfymguiden personuppgifter: vilka uppgifter vi samlar in, vilka cookies vi använder och hur du kontaktar oss om dina uppgifter."
+>
+  <section class="pillar wrap" style="border-top: none;">
+    <div class="pillar-head">
+      <div>
+        <p class="eyebrow">Senast uppdaterad {updated}</p>
+        <h1>Integritetspolicy</h1>
+      </div>
+    </div>
+
+    <div class="article-body" style="padding-bottom: 0;">
+      <p>
+        Parfymguiden är en oberoende redaktionell sajt. Den här sidan beskriver enkelt vilka uppgifter vi hanterar
+        när du besöker parfymguiden.se.
+      </p>
+
+      <h2>Vilka uppgifter vi samlar in</h2>
+      <p>
+        Parfymguiden använder inget eget analysverktyg och sätter inga egna cookies. Vi ber dig aldrig om
+        personuppgifter för att läsa innehållet på sajten.
+      </p>
+      <p>
+        Vår hostingleverantör (GitHub Pages) kan av tekniska skäl föra standardloggar över besök, till exempel
+        IP-adress och tidpunkt, på samma sätt som de flesta webbservrar gör. Vi har ingen egen tillgång till dessa
+        loggar utöver vad GitHub tillhandahåller som driftstatistik.
+      </p>
+
+      <h2>Om du kontaktar oss</h2>
+      <p>
+        Om du mejlar oss på <a href="mailto:hej@parfymguiden.se">hej@parfymguiden.se</a> sparar vi din mejladress och
+        korrespondensen så länge det behövs för att hantera ditt ärende, och raderar den därefter om den inte
+        behöver sparas av andra skäl.
+      </p>
+
+      <h2>Om det här ändras</h2>
+      <p>
+        Om vi i framtiden lägger till besöksstatistik, ett nyhetsbrev eller andra funktioner som samlar in
+        personuppgifter, uppdaterar vi den här sidan innan funktionen aktiveras och ändrar datumet högst upp.
+      </p>
+
+      <h2>Kontakt</h2>
+      <p>
+        Frågor om dina uppgifter eller den här policyn? Mejla <a href="mailto:hej@parfymguiden.se"
+          >hej@parfymguiden.se</a
+        >.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
